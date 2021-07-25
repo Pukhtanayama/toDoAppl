@@ -29,4 +29,9 @@ function deleteTodo(e){
     e.parentNode.remove()
 }
 
+function clearAllBtn(){
+    a.innerHTML = " "
+    input.value = " "
+}
+
 
